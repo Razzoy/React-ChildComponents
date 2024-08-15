@@ -1,0 +1,23 @@
+.cardContainer{
+    border: 1px solid black;
+    font-family: sans-serif;
+    max-width: fit-content;
+    margin-left: 3rem;
+
+    h2{
+        text-align: center;
+        margin: 1rem 0 10rem 0;
+    }
+    p{
+        background-color: #aaa;
+        
+    }
+    :nth-child(2){
+        height: 5rem;
+        padding: 0.5rem;
+    }
+    :nth-child(3){
+        margin: 0;
+        padding: 0.5rem;
+    }
+}
