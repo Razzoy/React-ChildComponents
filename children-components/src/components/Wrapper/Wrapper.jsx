@@ -3,15 +3,17 @@ import style from '../Wrapper/Wrapper.module.scss'
 export function Wrapper(props) {
     return (
         <>
-            {props.children}
+            <div className={style.wrapperContainer}>
+                {props.children}
+            </div>
         </>
     )
 }
 
-export function WrapperHeader(props){
+export function WrapperHeader(props) {
     return (
         <>
-        <h1>{props.title}</h1>
+            <h1>{props.title}</h1>
         </>
     )
 }
